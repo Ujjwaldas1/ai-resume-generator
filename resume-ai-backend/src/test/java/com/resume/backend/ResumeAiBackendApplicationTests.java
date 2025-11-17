@@ -10,11 +10,12 @@ import java.io.IOException;
 @SpringBootTest
 class ResumeAiBackendApplicationTests {
 
-	@Autowired
-	private ResumeService resumeService;
-	@Test
-	void contextLoads() throws IOException {
-	resumeService.generateResumeResponse("I am ujjwal Das final year student form maharishi markandeshwar Deemed to be university");
-	}
+    @Autowired
+    private ResumeService resumeService;
+
+    @Test
+    void contextLoads() throws IOException {
+        resumeService.generateResumeResponse("I am ujjwal Das final year student form maharishi markandeshwar Deemed to be university");
+    }
 
 }

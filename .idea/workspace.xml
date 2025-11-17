@@ -1,35 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eec03da-9a8f-4317-9f44-5610965adf0f" name="Changes" comment="" />
+    <list default="true" id="e71662e8-de66-4521-98d1-6d95464fedf9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-ai-backend/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume_frontend.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PERFORMANCE_CHECKLIST.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TROUBLESHOOTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fix-connection.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimize-performance.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick-fix.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/src/main/java/com/resume/backend/ResumeAiBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/src/main/java/com/resume/backend/ResumeAiBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/src/main/java/com/resume/backend/controller/ResumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/src/main/java/com/resume/backend/controller/ResumeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/src/main/java/com/resume/backend/service/ResumeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/src/main/java/com/resume/backend/service/ResumeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/src/main/resources/resume_prompt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/src/main/resources/resume_prompt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-ai-backend/src/test/java/com/resume/backend/ResumeAiBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/resume-ai-backend/src/test/java/com/resume/backend/ResumeAiBackendApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="31gNRhsorEs0HLeBuRWGcEOFTll" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="35IVccr7SWNDCpcTHhym1f7Qrk9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ResumeAiBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7eec03da-9a8f-4317-9f44-5610965adf0f" name="Changes" comment="" />
-      <created>1755941750459</created>
+      <changelist id="e71662e8-de66-4521-98d1-6d95464fedf9" name="Changes" comment="" />
+      <created>1762797656805</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1755941750459</updated>
+      <updated>1762797656805</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

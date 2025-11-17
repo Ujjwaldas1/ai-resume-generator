@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Resume-Maker.iml" filepath="$PROJECT_DIR$/.idea/Resume-Maker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resume-ai-backend/src/main/main.iml" filepath="$PROJECT_DIR$/resume-ai-backend/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resume-ai-backend/src/test/test.iml" filepath="$PROJECT_DIR$/resume-ai-backend/src/test/test.iml" />
     </modules>
   </component>
 </project>

@@ -1,51 +1,119 @@
-Generate a professional IT job resume in JSON format based on the following description. ONLY populate fields that are explicitly mentioned in the user's description. Leave all other fields empty (empty strings for text fields, empty arrays for lists). Do not make assumptions or add fictional information. Use the exact keys provided below and maintain their hierarchy.
+You are an expert resume generator. Your task is to create a professional IT job resume in strict JSON format based on the user's description.
 
-Input Description:
+Instructions:
+1. ONLY populate fields that are explicitly mentioned in the user's description
+2. Leave all other fields empty (empty strings for text fields, empty arrays for lists)
+3. Do not make assumptions or add fictional information
+4. Use the exact JSON structure provided below
+5. Respond ONLY with the JSON format enclosed in ```json and ``` tags
+6. Add your thinking process in ``` tags before the JSON
+
+User Description:
 "{{userDescription}}"
 
-JSON Structure Requirements:
-personalInformation: Include the following keys:
-fullName (string)
-email (string)
-phoneNumber (string)
-location (string)
-linkedIn (string or null if not provided)
-gitHub (string or null if not provided)
-portfolio (string or null if not provided)
-summary: A brief overview of skills, experience, and career goals (string).
-skills: List of object that contain two keys 'title' and 'level'
+Required JSON Structure:
+{
+  "personalInformation": {
+    "fullName": "",
+    "email": "",
+    "phoneNumber": "",
+    "location": "",
+    "linkedIn": null,
+    "gitHub": null,
+    "portfolio": null
+  },
+  "summary": "",
+  "skills": [
+    {
+      "title": "",
+      "level": ""
+    }
+  ],
+  "experience": [
+    {
+      "jobTitle": "",
+      "company": "",
+      "location": "",
+      "duration": "",
+      "responsibility": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "",
+      "university": "",
+      "location": "",
+      "graduationYear": ""
+    }
+  ],
+  "certifications": [
+    {
+      "title": "",
+      "issuingOrganization": "",
+      "year": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "",
+      "description": "",
+      "technologiesUsed": [""],
+      "githubLink": null
+    }
+  ],
+  "achievements": [
+    {
+      "title": "",
+      "year": "",
+      "extraInformation": ""
+    }
+  ],
+  "languages": [
+    {
+      "name": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": ""
+    }
+  ]
+}
 
-experience: A list of job roles. Each job role should include:
-jobTitle (string)
-company (string)
-location (string)
-duration (string, e.g., "Jan 2020 - Present")
-responsibility(string)
+Example Response Format:
+```
+<thinking process>
+```
+```json
+{
+  "personalInformation": {
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "+1-555-123-4567",
+    "location": "San Francisco, CA",
+    "linkedIn": "https://linkedin.com/in/johndoe",
+    "gitHub": "https://github.com/johndoe",
+    "portfolio": null
+  },
+  "summary": "Experienced software developer with 5 years of experience in Java and Spring Boot",
+  "skills": [
+    {
+      "title": "Java",
+      "level": "Expert"
+    },
+    {
+      "title": "Spring Boot",
+      "level": "Expert"
+    }
+  ],
+  "experience": [],
+  "education": [],
+  "certifications": [],
+  "projects": [],
+  "achievements": [],
+  "languages": [],
+  "interests": []
+}
+```
 
-education: A list of degrees. Each degree should include:
-degree (string)
-university (string)
-location (string)
-graduationYear (string)
-
-certifications: A list of certifications. Each certification should include:
-title (string)
-issuingOrganization (string)
-year (string)
-
-projects: A list of key projects. Each project should include:
-title (string)
-description (string)
-technologiesUsed (array of strings)
-githubLink (string or null if not provided)
-
-achievements: A list achievements that contains objects of keys
-title (string)
-year(string)
-extraInformation(string)
-
-languages: A list of spoken languages objects contain keys
-name(string)
-
-interests: A list of additional interests or hobbies related to technology or professional development  [list of objects having keys].
-name(string)
+Remember: Only include information explicitly mentioned in the user's description. Do not make up information. Respond only with the JSON format as shown above.

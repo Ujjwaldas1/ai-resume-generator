@@ -35,12 +35,10 @@ public class ResumeController {
     @PostMapping("/generate")
     public ResponseEntity<Map<String, Object>> getResumeData(@RequestBody ResumeRequest resumeRequest) {
         try {
-            Map<String, Object> stringObjectMap = resumeService.generateResumeResponse(resumeRequest.userDescription());
-            return new ResponseEntity<>(stringObjectMap, HttpStatus.OK);
+            Map<String, Object> result = resumeService.generateResumeResponse(resumeRequest.userDescription());
+            return ResponseEntity.ok(result);
         } catch (IOException e) {
-            Map<String, Object> errorResponse = new HashMap<>();
-            errorResponse.put("error", "Failed to generate resume: " + e.getMessage());
-            return new ResponseEntity<>(errorResponse, HttpStatus.INTERNAL_SERVER_ERROR);
+            return ResponseEntity.status(500).body(Map.of("error", e.getMessage()));
         }
     }
 
