@@ -1,9 +1,10 @@
-package com.resume.backend.service;
+package com.resume.backend.service.resume;
 
-import java.io.IOException;
-import java.util.Map;
+import com.resume.backend.service.resume.dto.ResumeData;
 
 public interface ResumeService {
 
-    Map<String, Object> generateResumeResponse(String userResumeDescription) throws IOException;
+    String generatePreview(String templateId, ResumeData data);
+
+    byte[] generatePDF(String templateId, ResumeData data);
 }

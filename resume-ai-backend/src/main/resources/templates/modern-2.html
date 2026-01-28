@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - {{fullName}}</title>
+
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: "Segoe UI", Arial, sans-serif;
+          font-size: 11pt;
+          line-height: 1.5;
+          color: #000;
+          background-color: #fff;
+          padding: 0.5in;
+          max-width: 8.5in;
+          margin: 0 auto;
+        }
+
+        h1 {
+          font-size: 20pt;
+          font-weight: bold;
+          margin-bottom: 6pt;
+        }
+
+        h2 {
+          font-size: 13pt;
+          font-weight: bold;
+          margin-top: 16pt;
+          margin-bottom: 6pt;
+          border-bottom: 2pt solid #333;
+          padding-bottom: 3pt;
+        }
+
+        p {
+          margin: 4pt 0;
+        }
+
+        ul {
+          margin: 4pt 0;
+          padding-left: 20pt;
+        }
+
+        li {
+          margin: 2pt 0;
+        }
+
+        .contact-info {
+          font-size: 10pt;
+          margin-bottom: 12pt;
+        }
+
+        .experience-item,
+        .education-item,
+        .project-item {
+          margin-bottom: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<h1>{{fullName}}</h1>
+<div class="contact-info">
+    {{email}} | {{phoneNumber}} | {{location}}<br />
+    {{linkedIn}} {{gitHub}} {{portfolio}}
+</div>
+
+<!-- SUMMARY -->
+<h2>Summary</h2>
+<p>{{summary}}</p>
+
+<!-- SKILLS -->
+<h2>Skills</h2>
+<ul>
+    {{#skills}}
+</ul>
+
+<!-- EXPERIENCE -->
+<h2>Experience</h2>
+{{#experience}}
+
+<!-- EDUCATION -->
+<h2>Education</h2>
+{{#education}}
+
+<!-- PROJECTS -->
+<h2>Projects</h2>
+{{#projects}}
+
+<!-- CERTIFICATIONS -->
+<h2>Certifications</h2>
+<ul>
+    {{#certifications}}
+</ul>
+
+<!-- LANGUAGES -->
+<h2>Languages</h2>
+<ul>
+    {{#languages}}
+</ul>
+
+<!-- INTERESTS -->
+<h2>Interests</h2>
+<ul>
+    {{#interests}}
+</ul>
+
+</body>
+</html>
